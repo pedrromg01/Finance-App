@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Finance App</title>
+</head>
+<body>
+    <h1>Welcome to the Finance App</h1>
+
+    <main>
+        <form>
+            <h2>New Transaction</h2>
+            <input type="hidden" id="id" name="id">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" step="0.01" required>
+            <br><br>
+            <button>Save</button>    
+        </form>
+
+        <div>
+            <h2>Saldo: <span id="balance"></span></h2>
+            <h2>Transaction History</h2>
+            <section id="transactions"></section>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

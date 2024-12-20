@@ -1,0 +1,29 @@
+{
+  "transactions": [
+    {
+      "id": "1",
+      "name": "Freelance",
+      "amount": 5000
+    },
+    {
+      "id": "2",
+      "name": "Salary",
+      "amount": 10000
+    },
+    {
+      "id": "3",
+      "name": "Rent",
+      "amount": -2000
+    },
+    {
+      "id": "4",
+      "name": "Food",
+      "amount": -500
+    },
+    {
+      "id": "744a",
+      "name": "Ifood",
+      "amount": -250
+    }
+  ]
+}
